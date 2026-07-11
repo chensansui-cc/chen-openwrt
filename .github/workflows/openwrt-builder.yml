@@ -32,7 +32,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  SSH_ACTIONS: true # 默认开启 SSH 编译，不需要配置时改为 false 即可
+  SSH_ACTIONS: false # 默认开启 SSH 编译，不需要配置时改为 false 即可
 
 jobs:
   build:
